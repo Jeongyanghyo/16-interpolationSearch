@@ -7,7 +7,7 @@
 ![interpolation search {result 3 image}](https://github.com/user-attachments/assets/206c6448-5387-4411-b139-b7875c0ba3bb)
 
 # 평균 비교 횟수
-1. Binary Search는 정렬된 배열에서 값을 찾을 때마다 범위를 절반으로 나누며, 최악의 경우에는 O(log n)번의 비교가 필요합니다. 1000번의 Binary Search를 수행한 평균 비교 횟수는 약 9~10번 정도입니다.
+1. Binary Search는 정렬된 배열에서 값을 찾을 때마다 범위를 절반으로 나누며, 최악의 경우에는 O(log n)번의 비교가 필요합니다. 1000번의 Binary Search를 수행한 평균 비교 횟수는 약 8~10번 정도입니다.
 
 2. Interpolation Search는 Binary Search와 유사하지만, 키의 위치를 추정하는 과정에서 배열의 값 분포를 활용합니다. 배열이 균일하게 분포된 경우, 이 방식은 훨씬 더 효율적일 수 있습니다. 1000번의 Interpolation Search를 수행한 평균 비교 횟수는 Binary Search보다 적게 나오며, 약 4~6번 정도입니다.
 
